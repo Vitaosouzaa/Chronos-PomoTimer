@@ -1,10 +1,14 @@
-import React from 'react';
+import './styles/theme.css';
+import './styles/global.css';
 
-export const App = () => {
+export function App() {
   return (
-    <div>
-      <h1>Olá Mundo</h1>
-      <p>TESTE</p>
-    </div>
+    <>
+      <div className='container'>
+        <div className='content'>
+          <section>Olá Mundo</section>
+        </div>
+      </div>
+    </>
   );
-};
+}
