@@ -9,6 +9,7 @@ import { getNextCycleType } from '../../utils/getNextCycleType';
 
 import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 import { TaskActionTypes } from '../../contexts/TaskContext/taskActions';
+import { Tips } from '../Tips';
 
 export function MainForm() {
   const { state, dispatch } = useTaskContext();
@@ -60,7 +61,7 @@ export function MainForm() {
       </div>
 
       <div className='formRow'>
-        <p>Proximo intervalo será 25 min</p>
+        <Tips />
       </div>
 
       {state.currentCycle > 0 && (
