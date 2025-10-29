@@ -46,7 +46,7 @@ export function Menu() {
       <a
         className={styles.menuLink}
         href='#'
-        aria-label='Go to Home'
+        aria-label='Ir para a Home'
         title='Home'
       >
         <HouseIcon />
@@ -54,8 +54,8 @@ export function Menu() {
       <a
         className={styles.menuLink}
         href='#'
-        aria-label='See history'
-        title='History'
+        aria-label='Olhar Histórico'
+        title='Histórico'
       >
         <HistoryIcon />
       </a>
@@ -70,8 +70,8 @@ export function Menu() {
       <a
         className={styles.menuLink}
         href='#'
-        aria-label='To alter theme'
-        title='Theme'
+        aria-label='Alterar tema'
+        title='Tema'
         onClick={handleThemeChange}
       >
         {nextIconTheme[theme]}
