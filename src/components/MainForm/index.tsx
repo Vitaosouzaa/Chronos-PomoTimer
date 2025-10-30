@@ -6,10 +6,10 @@ import type { TaskModel } from '../../models/TaskModel';
 import { useTaskContext } from '../../contexts/TaskContext/UseTaskContext';
 import { getNextCycle } from '../../utils/getNextCycle';
 import { getNextCycleType } from '../../utils/getNextCycleType';
-
-import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 import { TaskActionTypes } from '../../contexts/TaskContext/taskActions';
 import { Tips } from '../Tips';
+
+import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 
 export function MainForm() {
   const { state, dispatch } = useTaskContext();
