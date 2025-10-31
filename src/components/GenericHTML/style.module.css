@@ -1,22 +1,23 @@
 .genericHtml h1 {
-  font-size: 3.2rem;
-  margin-bottom: 1.6rem;
+  padding: 3rem;
+  font-size: 4rem;
+  margin-bottom: 10rem;
 }
 
 .genericHtml h2 {
+  font-size: 3rem;
+  margin-bottom: 1.6rem;
+}
+
+.genericHtml h3 {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
 }
 
-.genericHtml h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
 .genericHtml p {
-  font-size: 1.6rem;
-  line-height: 1.6rem;
-  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
 }
 
 .genericHtml a {
