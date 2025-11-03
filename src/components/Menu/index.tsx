@@ -54,7 +54,7 @@ export function Menu() {
       </RouterLink>
       <RouterLink
         className={styles.menuLink}
-        href='/hisstory/'
+        href='/history/'
         aria-label='Olhar Histórico'
         title='Histórico'
       >
