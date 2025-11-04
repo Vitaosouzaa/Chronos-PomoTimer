@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Container } from '../../components/Container';
 import { Heading } from '../../components/Heading';
-import { useTaskContext } from '../../contexts/TaskContext/UseTaskContext';
+import { useTaskContext } from '../../contexts/TaskContext/useTaskContext';
 import { MainTemplate } from '../../templates/MainTemplate';
 import { formatDate } from '../../utils/formatDate';
 import { getTaskStatus } from '../../utils/getTaskStatus';

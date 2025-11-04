@@ -6,7 +6,7 @@ import { Heading } from '../../components/Heading';
 
 import { MainTemplate } from '../../templates/MainTemplate';
 import { useEffect, useRef } from 'react';
-import { useTaskContext } from '../../contexts/TaskContext/UseTaskContext';
+import { useTaskContext } from '../../contexts/TaskContext/useTaskContext';
 import { showMessage } from '../../adapters/showMessage';
 import { TaskActionTypes } from '../../contexts/TaskContext/taskActions';
 
