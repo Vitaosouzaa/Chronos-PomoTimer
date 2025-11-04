@@ -54,6 +54,10 @@ export function History() {
     };
   }, []);
 
+  useEffect(() => {
+    document.title = 'Histórico - PomoTimer';
+  }, []);
+
   function handleSortTasks({ field }: Pick<SortTasksOptions, 'field'>) {
     const newDirection = sortTaskOptions.direction === 'desc' ? 'asc' : 'desc';
 
